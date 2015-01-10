@@ -96,7 +96,7 @@
     
     NSTimeInterval time = [[[NSDate alloc] init] timeIntervalSince1970];
     int tradeNo = time * 10000;
-    return [NSString stringWithFormat:@"zy%d", tradeNo];
+    return [NSString stringWithFormat:@"%d", tradeNo];
 }
 
 @end
